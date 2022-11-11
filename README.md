@@ -25,3 +25,13 @@ Prompt:'mona lisa'
 ![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00002-3294549032-mona%20lisa.png)
 
 ![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00003-3294549032-mona%20lisa.png)
+
+
+Parameters:
+
+strength: in the final step CFG scale will have been multiplied by this value, the interpolation is linear in this version
+
+do not allow negative values: prevents CFG scale from going lower than zero, for some samplers (like HEUN) this is a known issue
+
+known issues:
+does not work well if batch count is greater than 1 and for samplers that do more than one multiplication per step
