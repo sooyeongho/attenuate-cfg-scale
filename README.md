@@ -29,8 +29,10 @@ Prompt:'mona lisa'
 
 Parameters:
 
-Strength: in the final step CFG scale will have been multiplied by (1-strength)
+Strength: in the final step, CFG scale will have been multiplied by (1-strength)
+
 Do not allow negative values: prevents CFG scale from going lower than zero, for some samplers (like HEUN) this is a known issue
 
-known issues:
-does not work well if batch count is greater than 1 and for samplers that do more than one multiplication per step
+Known issues:
+
+Does not work well if batch count is greater than 1 and for samplers that do more than one multiplication per step.
