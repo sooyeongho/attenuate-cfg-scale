@@ -27,7 +27,7 @@ class Script(scripts.Script):
 
     def run(self, p, strength, range_check):
         target_value = p.cfg_scale * (1-strength)
-        p.cfg_scale = Fake_float(p.cfg_scale, target_value, p.steps, range_check)
+        p.cfg_scale = Fake_float(p.cfg_scale, target_value, p.steps  * p.batch_size, range_check)
         proc = process_images(p)
         return proc
 
