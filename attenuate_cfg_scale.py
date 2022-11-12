@@ -1,4 +1,4 @@
-# Decaying CFG Scale script for AUTOMATIC1111/stable-diffusion-webui
+# Attenuate CFG Scale script for AUTOMATIC1111/stable-diffusion-webui
 #
 # https://github.com/tkalayci71/attenuate-cfg-scale
 # version 1.1 - 2022.11.12
