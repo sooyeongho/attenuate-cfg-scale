@@ -1,5 +1,5 @@
-Usage:
-Copy attenuate-cfg-scale.py to webui/scripts folder
+opy attenuate-cfg-scale.py to webui/scripts folder
+
 see https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts
 
 This script attenuates the CFG Scale value while the image is being generated,
