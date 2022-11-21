@@ -1,7 +1,10 @@
 # Attenuate CFG Scale script for AUTOMATIC1111/stable-diffusion-webui
 #
 # https://github.com/tkalayci71/attenuate-cfg-scale
-# version 1.1 - 2022.11.12
+# version 1.4 - 2022.11.21
+#
+# also check out:
+# https://github.com/guzuligo/CFG-Schedule-for-Automatic1111-SD
 
 import modules.scripts as scripts
 import gradio as gr
@@ -27,16 +30,16 @@ class Script(scripts.Script):
 
     def run(self, p, strength):
 
-        if p.sampler_index in (0,1,2,7,8,10,14):
+        if p.sampler_name in ('Euler a','Euler','LMS','DPM++ 2M','DPM fast','LMS Karras','DPM++ 2M Karras'):
             max_mul_count = p.steps * p.batch_size
             steps_per_mul = p.batch_size
-        elif p.sampler_index in (3,4,5,6,11,12,13):
+        elif p.sampler_name in ('Heun','DPM2','DPM2 a','DPM++ 2S a','DPM2 Karras','DPM2 a Karras','DPM++ 2S a Karras'):
             max_mul_count = ((p.steps*2)-1) * p.batch_size
             steps_per_mul = 2 * p.batch_size
-        elif p.sampler_index==15: # ddim
+        elif p.sampler_name=='DDIM': # ddim
             max_mul_count = fix_ddim_step_count(p.steps)
             steps_per_mul = 1
-        elif p.sampler_index==16: # plms
+        elif p.sampler_name=='PLMS': # plms
             max_mul_count = fix_ddim_step_count(p.steps)+1
             steps_per_mul = 1
         else:
