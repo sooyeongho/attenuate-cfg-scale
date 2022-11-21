@@ -1,4 +1,4 @@
-version 1.1 (2022.11.12)
+version 1.4 (2022.11.21)
 
 This script attenuates the CFG Scale value while the image is being generated,
 hopefully resulting in a smoother image. Experiment and enjoy!
