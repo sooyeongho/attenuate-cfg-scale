@@ -7,7 +7,7 @@ Installation:
 
 Copy attenuate-cfg-scale.py to webui/scripts folder (see https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)
 
-[note: if you're updating from an earlier version and strength parameter does not go to 2, edit lines containing attenuate_cfg_scale.py in ui-config.json]
+[note: if you're updating from an earlier version and strength parameter does not go to 2, edit/remove lines containing "attenuate_cfg_scale.py" in ui-config.json]
 
 ( Also check out: https://github.com/guzuligo/CFG-Schedule-for-Automatic1111-SD )
 
