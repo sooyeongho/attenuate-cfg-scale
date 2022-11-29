@@ -21,16 +21,23 @@ In txt2img tab, select "Attenuate CFG scale" in the "Script" list at the bottom,
 (Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 3294549032, Size: 512x512, Model hash: 7460a6fa sd-v1-4.ckpt)
 
 Prompt:'einstein'
-Before (strength=0) | After (strength=1) | After (strength=2) 
+Before (strength=0) | After (strength=1) | Funny (strength=2) 
 --- | --- | ---
 ![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00000-3294549032-einstein.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00001-3294549032-einstein.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00004-3294549032-einstein.png)
 
 Prompt:'mona lisa'
-Before (strength=0) | After (strength=1) | After (strength=2) 
+Before (strength=0) | After (strength=1) | Funny (strength=2) 
 --- | --- | ---
 ![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00002-3294549032-mona%20lisa.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00003-3294549032-mona%20lisa.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00005-3294549032-mona%20lisa.png)
 
 Prompt:'elvis'
-Before (strength=0) | After (strength=1) | After (strength=2) 
+Before (strength=0) | After (strength=1) | Funny (strength=2) 
 --- | --- | ---
 ![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00000-3294549032-elvis.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00001-3294549032-elvis.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00002-3294549032-elvis.png)
+
+Prompt:'girl with a pearl earring'
+Before (strength=0) | After (strength=1) | Funny (strength=2) 
+--- | --- | ---
+![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00000-3294549032-girl%20with%20a%20pearl%20earring.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00001-3294549032-girl%20with%20a%20pearl%20earring.png)|![image](https://github.com/tkalayci71/attenuate-cfg-scale/blob/main/examples/00002-3294549032-girl%20with%20a%20pearl%20earring.png)
+
+
