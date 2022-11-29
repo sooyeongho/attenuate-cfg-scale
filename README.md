@@ -11,6 +11,10 @@ Copy attenuate-cfg-scale.py to webui/scripts folder (see https://github.com/AUTO
 
 ( Also check out: https://github.com/guzuligo/CFG-Schedule-for-Automatic1111-SD )
 
+Usage:
+
+In txt2img tab, select "Attenuate CFG scale" in the "Script" list at the bottom, set strength parameter, and click Generate button.
+
 
 Examples:
 
