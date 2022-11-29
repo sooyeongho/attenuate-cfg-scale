@@ -5,7 +5,7 @@ hopefully resulting in a smoother image. Experiment and enjoy!
 
 Installation:
 
-Copy attenuate-cfg-scale.py to webui/scripts folder (see https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)
+Copy ![attenuate-cfg-scale.py](https://raw.githubusercontent.com/tkalayci71/attenuate-cfg-scale/main/attenuate_cfg_scale.py) to webui/scripts folder (see https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)
 
 [note: if you're updating from an earlier version and strength parameter does not go to 2, edit/remove lines containing "attenuate_cfg_scale.py" in ui-config.json]
 
